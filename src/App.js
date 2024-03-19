@@ -1,8 +1,13 @@
 import './App.css';
+import Header from './screens/Header';
+
+
 
 function App() {
   return (
-    <h1>Hello Tillo</h1>
+    <div className='container'>
+      <Header />
+    </div>
   );
 }
 
