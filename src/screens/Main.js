@@ -10,7 +10,7 @@ function Main() {
                     <a href="#!" >Contact</a>
                 </div>
                 <div className='col-6'>
-                    <img src={imgMain} alt='mainImage' />
+                    <img src={imgMain} alt='mainImage' className='w-50' />
                 </div>
             </div>
         </div>
