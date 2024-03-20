@@ -1,12 +1,12 @@
 import React from 'react';
-import logo from '../assets/logo.jpg'
+import logo from '../assets/shieldGreen.jpg'
 
 function Header() {
     return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
-            <div className="container-fluid">
+            <div className="container">
                 <a className="navbar-brand" href="#!">
-                    <img src={logo} alt='Logo' style={{width : "150px"}} />
+                    <img src={logo} alt='Logo' style={{width : "200px"}} />
                 </a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -14,18 +14,18 @@ function Header() {
                 <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#!">Main</a>
+                            <a className="nav-link fs-4 me-3 active" aria-current="page" href="#!">Main</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#!">About</a>
+                            <a className="nav-link fs-4 me-3" href="#!">About</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link " href='#!' >Services</a>
+                            <a className="nav-link fs-4 me-3 " href='#!' >Services</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link " href='#!' >FAQs</a>
+                            <a className="nav-link fs-4 me-3 " href='#!' >FAQs</a>
                         </li>
-                        <li className="nav-item dropdown">
+                        <li className="nav-item dropdown fs-4 me-3">
                             <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#!" role="button" aria-expanded="false">Dropdown</a>
                             <ul className="dropdown-menu">
                                 <li><a className="dropdown-item" href="#!">Eng</a></li>
@@ -33,7 +33,7 @@ function Header() {
                                 <li><a className="dropdown-item" href="#!">Uzb</a></li>
                             </ul>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item fs-4 me-3">
                             <a className="nav-link " href='#!' >Contact</a>
                         </li>
                     </ul>
