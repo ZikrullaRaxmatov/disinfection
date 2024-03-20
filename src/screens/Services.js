@@ -20,11 +20,15 @@ function Services() {
                 <hr />
                 <h5>We provide you with efficient and guaranteed service.</h5>
             </div>
-            <div className='row border border-success rounded-pill mt-3' data-aos="flip-down" data-aos-duration="2000">
-                <div className='col-3' >
+            <div className='row border border-success rounded rounded-lg-pill mt-3' data-aos="flip-down" data-aos-duration="2000">
+                <div className='col-0 d-none col-md-3' >
                     <img src={virusImg} alt='virus' className='w-100 rounded-pill' />
                 </div>
-                <div className='col-9 '>
+                <div className='col-3  position-absolute start-50 top-0 col-md-0'>
+                    <img src={virusImg} alt='virus' className='w-100 rounded-pill' />
+                </div>
+                <div className='col-md-9 position-relative'>
+                    <span class="position-absolute top-0 start-100 translate-middle badge border border-light rounded-circle bg-danger p-2"></span>
                     <h2 className='mt-5'>Disinfection is the destruction of harmful microorganisms</h2>
                     <p>The main task of any disinfection is to destroy dangerous microorganisms that can cause infections and diseases. Disinfection measures clean the space from mold, virus, mildew and bacteria. The process cleans the environment of pathogenic organisms. If you feel bad, you may feel tired or weak for no reason.</p>
                 </div>
@@ -85,7 +89,7 @@ function Services() {
                 </div>
             </div>
             <div className='row mt-4'>
-                <div className='col-6'data-aos="flip-left" data-aos-duration="2000" >
+                <div className='col-6' data-aos="flip-left" data-aos-duration="2000" >
                     <div class="card shadow text-center">
                         <div class="card-header">
                             SCORPION
