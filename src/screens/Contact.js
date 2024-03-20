@@ -6,7 +6,7 @@ function Contact() {
         <div className='container' id='contact' >
             <h1 className='mt-5'>Contact</h1>
             <hr />
-            <div className='row border border-success rounded mt-5'>
+            <div className='row border border-success rounded mt-5' data-aos="zoom-in-up" data-aos-duration="2000">
                 <div className='col p-4'>
                     <div class="card shadow p-3" style={{ width: "25rem;" }}>
                         <div className='card-header text-center'>

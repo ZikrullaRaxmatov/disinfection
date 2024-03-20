@@ -20,8 +20,8 @@ function Services() {
                 <hr />
                 <h5>We provide you with efficient and guaranteed service.</h5>
             </div>
-            <div className='row border border-success rounded-pill mt-3'>
-                <div className='col-3'>
+            <div className='row border border-success rounded-pill mt-3' data-aos="flip-down" data-aos-duration="2000">
+                <div className='col-3' >
                     <img src={virusImg} alt='virus' className='w-100 rounded-pill' />
                 </div>
                 <div className='col-9 '>
@@ -29,7 +29,7 @@ function Services() {
                     <p>The main task of any disinfection is to destroy dangerous microorganisms that can cause infections and diseases. Disinfection measures clean the space from mold, virus, mildew and bacteria. The process cleans the environment of pathogenic organisms. If you feel bad, you may feel tired or weak for no reason.</p>
                 </div>
             </div>
-            <div className='row border border-success rounded-pill mt-3'>
+            <div className='row border border-success rounded-pill mt-3' data-aos="flip-down" data-aos-duration="2000">
                 <div className='col-3'>
                     <img src={insectImg} alt='virus' className='w-100 rounded-pill' />
                 </div>
@@ -38,7 +38,7 @@ function Services() {
                     <p>Many people first come across the word 'disinfestation' when they are looking for a way to get rid of their unwanted neighbors - bed bugs, cockroaches, ants and other insects. They themselves are harmless, and they are also known carriers of infection. Disinsection is the destruction of insects: mosquitoes, flies, bedbugs, cockroaches, moths, ticks, bark beetles, wood lice and other crawling and flying creatures.</p>
                 </div>
             </div>
-            <div className='row border border-success rounded-pill mt-3'>
+            <div className='row border border-success rounded-pill mt-3' data-aos="flip-down" data-aos-duration="2000">
                 <div className='col-3'>
                     <img src={mouseImg} alt='virus' className='w-100 rounded-pill' />
                 </div>
@@ -53,7 +53,7 @@ function Services() {
                 <h1>Service types</h1>
             </div>
             <div className='row mt-4'>
-                <div className='col-6'>
+                <div className='col-6' data-aos="flip-left" data-aos-duration="2000" >
                     <div class="card shadow text-center">
                         <div class="card-header">
                             VALVES
@@ -68,7 +68,7 @@ function Services() {
                         </div>
                     </div>
                 </div>
-                <div className='col-6'>
+                <div className='col-6' data-aos="flip-left" data-aos-duration="2000" >
                     <div class="card shadow text-center">
                         <div class="card-header">
                             COCKROACHES
@@ -85,7 +85,7 @@ function Services() {
                 </div>
             </div>
             <div className='row mt-4'>
-                <div className='col-6'>
+                <div className='col-6'data-aos="flip-left" data-aos-duration="2000" >
                     <div class="card shadow text-center">
                         <div class="card-header">
                             SCORPION
@@ -100,7 +100,7 @@ function Services() {
                         </div>
                     </div>
                 </div>
-                <div className='col-6'>
+                <div className='col-6' data-aos="flip-left" data-aos-duration="2000" >
                     <div className="card shadow text-center">
                         <div className="card-header">
                             RODENTS
@@ -117,7 +117,7 @@ function Services() {
                 </div>
             </div>
             <div className='row mt-4'>
-                <div className='col-6'>
+                <div className='col-6' data-aos="flip-left" data-aos-duration="2000" >
                     <div className="card shadow text-center">
                         <div className="card-header">
                             FLEAS
@@ -135,7 +135,7 @@ function Services() {
             </div>
 
             {/* Certificate */}
-            <div className='row mt-5 border border-success rounded'>
+            <div className='row mt-5 border border-success rounded' data-aos="flip-right" data-aos-duration="2000" >
                 <div className='col-7 d-flex justify-content-center align-items-center p-3'>
                     <img src={pest} alt='certificate' className=' w-75 rounded ' />
                 </div>

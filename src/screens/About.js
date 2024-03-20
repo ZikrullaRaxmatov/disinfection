@@ -11,7 +11,7 @@ function About() {
                     <hr />
                 </div>
             </div>
-            <div className='row mt-2'>
+            <div className='row mt-2' data-aos="fade-right" data-aos-duration="10000">
                 <div className='col-4 text-center'>
                     <i class="fa-solid fa-bolt fa-2xl" style={{ color: "#0cad00" }}></i>
                     <h3 className='mt-2'>Fast service</h3>
@@ -29,10 +29,10 @@ function About() {
                 </div>
             </div>
             <div className='row mt-2'>
-                <div className='col '>
+                <div className='col' data-aos="zoom-out" data-aos-duration="10000">
                     <div className="card text-center shadow">
                         <img src={aboutImg} alt='about' className='w-100 border border-success rounded' />
-                        <div className="card-img-overlay">
+                        <div className="card-img-overlay" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                             <h2 className="card-title mt-5">Consider the droplet and harmful insects no more!!!</h2>
                             <h4 className="card-text mt-5">Our company has been operating for many years. Our customers are happy with us</h4>
                             <a href='#contact' className='btn mt-5' style={{ backgroundColor: "#5cad00", color: "white" }} >Contact</a>
