@@ -5,7 +5,7 @@ function Header() {
     return (
         <nav className="navbar navbar-expand-lg sticky-top shadow" style={{ backgroundColor: "#fff" }}>
             <div className="container">
-                <a className="navbar-brand" href="#!">
+                <a className="navbar-brand" href="#main">
                     <img src={logo} alt='Logo' className='w-50 ms-5'/>
                 </a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">

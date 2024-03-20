@@ -4,10 +4,11 @@ import insectImg from '../assets/dis-hashorot.png'
 import mouseImg from '../assets/dis-mouse.jpg'
 
 import kalpa from '../assets/kalpalar.jpg'
-import tarakan from '../assets/kalpalar.jpg'
+import tarakan from '../assets/tarakanlar.jpg'
 import chayon from '../assets/chayonlar.jpg'
 import sichqon from '../assets/kalamushlar.jpg'
 import burga from '../assets/burgalar.jpg'
+import pest from '../assets/pestControl.jpg'
 
 
 function Services() {
@@ -60,7 +61,7 @@ function Services() {
                         <div class="card-body">
                             <img src={kalpa} alt='kalpa' className='w-25 border border-success rounded-pill' />
                             <p class="card-text">They live in beds, upholstered furniture, textiles, under door frames and window frames. They feed on the blood of humans and warm-blooded animals...</p>
-                            <a href="#!" class="btn btn-primary">Contact</a>
+                            <a href="#contact" style={{ backgroundColor: "#5cad00", color: "white" }} class="btn">Contact</a>
                         </div>
                         <div class="card-footer text-body-secondary">
                             A number of contact 23 times
@@ -75,7 +76,7 @@ function Services() {
                         <div class="card-body">
                             <img src={tarakan} alt='kalpa' className='w-25 border border-success rounded-pill' />
                             <p class="card-text">They carry pathogens. They live in crevices, under the floorboards, behind furniture, under the bathroom, under cabinets, etc. They feed on food, household waste, leather goods and paper.</p>
-                            <a href="#!" class="btn btn-primary">Contact</a>
+                            <a href="#contact" style={{ backgroundColor: "#5cad00", color: "white" }} class="btn">Contact</a>
                         </div>
                         <div class="card-footer text-body-secondary">
                             A number of contact 23 times
@@ -92,7 +93,7 @@ function Services() {
                         <div class="card-body">
                             <img src={chayon} alt='kalpa' className='w-25 border border-success rounded-pill' />
                             <p class="card-text">Heat-loving creatures that feed on insects and arachnids. They can live in barns and houses, but most often they are found in wooden buildings ...</p>
-                            <a href="#!" class="btn btn-primary">Contact</a>
+                            <a href="#contact" style={{ backgroundColor: "#5cad00", color: "white" }} class="btn">Contact</a>
                         </div>
                         <div class="card-footer text-body-secondary">
                             A number of contact 23 times
@@ -100,14 +101,14 @@ function Services() {
                     </div>
                 </div>
                 <div className='col-6'>
-                    <div class="card shadow text-center">
-                        <div class="card-header">
+                    <div className="card shadow text-center">
+                        <div className="card-header">
                             RODENTS
                         </div>
-                        <div class="card-body">
+                        <div className="card-body">
                             <img src={sichqon} alt='kalpa' className='w-25 border border-success rounded-pill' />
-                            <p class="card-text">The most common are rats and mice. They carry pathogens, work on all surfaces, create passages in walls and ceilings, reduce the reliability of the structure. They feed on food and household waste...</p>
-                            <a href="#!" class="btn btn-primary">Contact</a>
+                            <p className="card-text">The most common are rats and mice. They carry pathogens, work on all surfaces, create passages in walls and ceilings, reduce the reliability of the structure. They feed on food and household waste...</p>
+                            <a href="#contact" style={{ backgroundColor: "#5cad00", color: "white" }} class="btn">Contact</a>
                         </div>
                         <div class="card-footer text-body-secondary">
                             A number of contact 23 times
@@ -117,16 +118,16 @@ function Services() {
             </div>
             <div className='row mt-4'>
                 <div className='col-6'>
-                    <div class="card shadow text-center">
-                        <div class="card-header">
+                    <div className="card shadow text-center">
+                        <div className="card-header">
                             FLEAS
                         </div>
-                        <div class="card-body">
+                        <div className="card-body">
                             <img src={burga} alt='kalpa' className='w-25 border border-success rounded-pill' />
                             <p class="card-text">They enter the body of pets and migrate from neighbors. They live in upholstered furniture, beds, carpets, soft toys, under mattresses and in window and door frames. They feed on the blood of humans and animals. They cause diseases...</p>
-                            <a href="#!" class="btn btn-primary">Contact</a>
+                            <a href="#contact" style={{ backgroundColor: "#5cad00", color: "white" }} class="btn">Contact</a>
                         </div>
-                        <div class="card-footer text-body-secondary">
+                        <div className="card-footer text-body-secondary">
                             A number of contact 23 times
                         </div>
                     </div>
@@ -134,16 +135,16 @@ function Services() {
             </div>
 
             {/* Certificate */}
-            <div className='row mt-5 border border-success rounded bg-success'>
-                <div className='col-7 d-flex justify-content-center align-items-center'>
-                    <img src={virusImg} alt='certificate' className=' w-50' />
+            <div className='row mt-5 border border-success rounded'>
+                <div className='col-7 d-flex justify-content-center align-items-center p-3'>
+                    <img src={pest} alt='certificate' className=' w-75 rounded ' />
                 </div>
-                <div className='col-5 '>
-                    <i class="fa-solid fa-file-shield fa-2xl" style={{ color: "#0cad00" }}></i>
+                <div className='col-5 text-center'>
+                    <i className="fa-solid fa-file-shield fa-2xl mt-5" style={{ color: "#0cad00" }}></i>
                     <h1>
-                        Расмий кафолат - 1 йил. Биз жизмоний ва юридик шахсларга хизмат курсатамиз. Хизматлар лицензияланган!!!
+                        Official warranty - 1 year. We provide services to individuals and legal entities. Services are licensed!!!
                     </h1>
-                    <a href='#!' >Contact</a>
+                    <a href='#contact' style={{ backgroundColor: "#5cad00", color: "white" }} className='btn mt-2'>Contact</a>
                 </div>
             </div>
         </div>
