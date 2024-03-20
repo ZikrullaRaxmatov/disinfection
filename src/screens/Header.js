@@ -6,9 +6,19 @@ function Header() {
         <nav className="navbar navbar-expand-lg sticky-top shadow" style={{ backgroundColor: "#fff" }}>
             <div className="container">
                 <a className="navbar-brand" href="#main">
-                    <img src={logo} alt='Logo' className='w-50 ms-5'/>
+                    <img src={logo} alt='Logo' className='w-50 ms-5' />
                 </a>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                {/* <ul className='d-block d-md-none navbar-nav'>
+                    <li className="nav-item dropdown fs-6">
+                        <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#!" role="button" aria-expanded="false">Language</a>
+                        <ul className="dropdown-menu">
+                            <li><a className="dropdown-item" href="#!">Eng</a></li>
+                            <li><a className="dropdown-item" href="#!">Rus</a></li>
+                            <li><a className="dropdown-item" href="#!">Uzb</a></li>
+                        </ul>
+                    </li>
+                </ul> */}
+                <button className="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarTogglerDemo02">

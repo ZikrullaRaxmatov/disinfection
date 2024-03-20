@@ -20,33 +20,34 @@ function Services() {
                 <hr />
                 <h5>We provide you with efficient and guaranteed service.</h5>
             </div>
-            <div className='row border border-success rounded rounded-lg-pill mt-3' data-aos="flip-down" data-aos-duration="2000">
-                <div className='col-0 d-none col-md-3' >
-                    <img src={virusImg} alt='virus' className='w-100 rounded-pill' />
-                </div>
-                <div className='col-3  position-absolute start-50 top-0 col-md-0'>
-                    <img src={virusImg} alt='virus' className='w-100 rounded-pill' />
+            <div className='row border border-success rounded mt-3 m-5' data-aos="zoom-in-up" data-aos-duration="2000">
+                <div className='d-none col-md-3 d-lg-block' >
+                    <img src={virusImg} alt='virus' className=' w-100 rounded-pill mt-2' />
                 </div>
                 <div className='col-md-9 position-relative'>
-                    <span class="position-absolute top-0 start-100 translate-middle badge border border-light rounded-circle bg-danger p-2"></span>
+                    <span class="position-absolute top-0 start-100 translate-middle rounded-circle" style={{ width: "100px" }} ><img src={virusImg} alt='virus' className='w-100 rounded-pill' /></span>
                     <h2 className='mt-5'>Disinfection is the destruction of harmful microorganisms</h2>
                     <p>The main task of any disinfection is to destroy dangerous microorganisms that can cause infections and diseases. Disinfection measures clean the space from mold, virus, mildew and bacteria. The process cleans the environment of pathogenic organisms. If you feel bad, you may feel tired or weak for no reason.</p>
                 </div>
             </div>
-            <div className='row border border-success rounded-pill mt-3' data-aos="flip-down" data-aos-duration="2000">
-                <div className='col-3'>
-                    <img src={insectImg} alt='virus' className='w-100 rounded-pill' />
+
+            <div className='row border border-success rounded mt-3 m-5' data-aos="zoom-in-up" data-aos-duration="2000">
+                <div className='d-none col-md-3 d-lg-block' >
+                    <img src={insectImg} alt='virus' className=' w-100 rounded-pill mt-2' />
                 </div>
-                <div className='col-9 '>
+                <div className='col-md-9 position-relative'>
+                    <span class="position-absolute top-0 start-100 translate-middle rounded-circle" style={{ width: "100px" }} ><img src={insectImg} alt='virus' className='w-100 rounded-pill' /></span>
                     <h2 className='mt-5'>Disinsection is the destruction of insects</h2>
                     <p>Many people first come across the word 'disinfestation' when they are looking for a way to get rid of their unwanted neighbors - bed bugs, cockroaches, ants and other insects. They themselves are harmless, and they are also known carriers of infection. Disinsection is the destruction of insects: mosquitoes, flies, bedbugs, cockroaches, moths, ticks, bark beetles, wood lice and other crawling and flying creatures.</p>
                 </div>
             </div>
-            <div className='row border border-success rounded-pill mt-3' data-aos="flip-down" data-aos-duration="2000">
-                <div className='col-3'>
-                    <img src={mouseImg} alt='virus' className='w-100 rounded-pill' />
+
+            <div className='row border border-success rounded mt-3 m-5' data-aos="zoom-in-up" data-aos-duration="2000">
+                <div className='d-none col-md-3 d-lg-block' >
+                    <img src={mouseImg} alt='virus' className=' w-100 rounded-pill mt-2' />
                 </div>
-                <div className='col-9 '>
+                <div className='col-md-9 position-relative'>
+                    <span class="position-absolute top-0 start-100 translate-middle rounded-circle" style={{ width: "100px" }} ><img src={mouseImg} alt='virus' className='w-100 rounded-pill' /></span>
                     <h2 className='mt-5'>Deratization is the destruction of rodents.</h2>
                     <p>Deratization in Ferghana is a complex set of measures aimed at eliminating rodents. It is known that rodents are very hardy creatures that can withstand various dangerous effects. Therefore, a number of methods should be used to eliminate them. Deratization is carried out in places where rodents appear in Ferghana: apartment buildings, warehouses, shops, catering establishments.</p>
                 </div>
@@ -56,8 +57,8 @@ function Services() {
             <div className='row mt-5'>
                 <h1>Service types</h1>
             </div>
-            <div className='row mt-4'>
-                <div className='col-6' data-aos="flip-left" data-aos-duration="2000" >
+            <div className='row mt-2'>
+                <div className='col-12 col-md-6 mt-3 ' data-aos="flip-left" data-aos-duration="2000" >
                     <div class="card shadow text-center">
                         <div class="card-header">
                             VALVES
@@ -72,7 +73,7 @@ function Services() {
                         </div>
                     </div>
                 </div>
-                <div className='col-6' data-aos="flip-left" data-aos-duration="2000" >
+                <div className='col-12 col-md-6 mt-3' data-aos="flip-left" data-aos-duration="2000" >
                     <div class="card shadow text-center">
                         <div class="card-header">
                             COCKROACHES
@@ -89,7 +90,7 @@ function Services() {
                 </div>
             </div>
             <div className='row mt-4'>
-                <div className='col-6' data-aos="flip-left" data-aos-duration="2000" >
+                <div className='col-12 col-md-6 mt-3' data-aos="flip-left" data-aos-duration="2000" >
                     <div class="card shadow text-center">
                         <div class="card-header">
                             SCORPION
@@ -104,7 +105,7 @@ function Services() {
                         </div>
                     </div>
                 </div>
-                <div className='col-6' data-aos="flip-left" data-aos-duration="2000" >
+                <div className='col-12 col-md-6 mt-3' data-aos="flip-left" data-aos-duration="2000" >
                     <div className="card shadow text-center">
                         <div className="card-header">
                             RODENTS
@@ -121,7 +122,7 @@ function Services() {
                 </div>
             </div>
             <div className='row mt-4'>
-                <div className='col-6' data-aos="flip-left" data-aos-duration="2000" >
+                <div className='col-12 col-md-6 mt-3' data-aos="flip-left" data-aos-duration="2000" >
                     <div className="card shadow text-center">
                         <div className="card-header">
                             FLEAS
@@ -139,12 +140,12 @@ function Services() {
             </div>
 
             {/* Certificate */}
-            <div className='row mt-5 border border-success rounded' data-aos="flip-right" data-aos-duration="2000" >
-                <div className='col-7 d-flex justify-content-center align-items-center p-3'>
+            <div className='row mt-5 border border-success rounded m-2 ' data-aos="flip-right" data-aos-duration="3000" >
+                <div className='col-lg-7 d-flex justify-content-center align-items-center p-3'>
                     <img src={pest} alt='certificate' className=' w-75 rounded ' />
                 </div>
-                <div className='col-5 text-center'>
-                    <i className="fa-solid fa-file-shield fa-2xl mt-5" style={{ color: "#0cad00" }}></i>
+                <div className='col-lg-5 text-center pb-3 pb-md-0'>
+                    <i className="fa-solid fa-file-shield fa-2xl mt-3 mt-lg-5" style={{ color: "#0cad00" }}></i>
                     <h1>
                         Official warranty - 1 year. We provide services to individuals and legal entities. Services are licensed!!!
                     </h1>
