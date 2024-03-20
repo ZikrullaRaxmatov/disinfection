@@ -4,7 +4,7 @@ function FAQ() {
     return (
         <div className='container'>
             <div className='row mt-5'>
-                <h1>FAQs</h1>
+                <h1 id='faqs' >FAQs</h1>
                 <hr/>
             </div>
             <div className='row'>

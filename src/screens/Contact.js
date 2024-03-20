@@ -3,7 +3,7 @@ import contactImg from '../assets/dis-1.jpg'
 
 function Contact(props) {
     return (
-        <div className='container'>
+        <div className='container' id='contact' >
             <div className='row border border-success rounded mt-5'>
                 <div className='col p-4'>
                     <div class="card shadow p-3" style={{ width: "25rem;" }}>

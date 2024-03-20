@@ -1,32 +1,40 @@
 import React from 'react';
-import virusImg from '../assets/dis-hashorot.png'
-// import insectImg from '../assets/dis-hashorot.png'
+import virusImg from '../assets/virus.jpg'
+import insectImg from '../assets/dis-hashorot.png'
 import mouseImg from '../assets/dis-mouse.jpg'
+
+import kalpa from '../assets/kalpalar.jpg'
+import tarakan from '../assets/kalpalar.jpg'
+import chayon from '../assets/chayonlar.jpg'
+import sichqon from '../assets/kalamushlar.jpg'
+import burga from '../assets/burgalar.jpg'
+
 
 function Services() {
     return (
         <div className='container'>
             {/* Services */}
-            <div className='row'>
-                <h1>Xizmatlar</h1>
-                <h5>Биз сизга самарали ва кафолатли хизмат тақдим етамиз.</h5>
-            </div>
-            <div className='row border border-success rounded-pill mt-3'>
-                <div className='col-3'>
-                    <img src={mouseImg} alt='virus' className='w-100 rounded-pill' />
-                </div>
-                <div className='col-9 '>
-                    <h2 className='mt-5'>Dezinfeksiya - zararli mikroorganizmlarni yo'q qilish</h2>
-                    <p>Ҳар қандай дезинфексиянинг асосий вазифаси инфексиялар ва касалликларга олиб келиши мумкин бўлган хавфли микроорганизмларни йўқ қилишдир. Дезинфексия чоралари бўш жойни моғор, вирус, чириётган ва бактериялардан тозалайди. Жараён атроф-муҳитни патоген организмлардан тозалайди.Агар ўзингизни ёмон ҳис қилсангиз, чарчоқ ёки сабабсиз заифлашсангиз керак.</p>
-                </div>
+            <div className='row mt-5'>
+                <h1 id='services'>Services</h1>
+                <hr />
+                <h5>We provide you with efficient and guaranteed service.</h5>
             </div>
             <div className='row border border-success rounded-pill mt-3'>
                 <div className='col-3'>
                     <img src={virusImg} alt='virus' className='w-100 rounded-pill' />
                 </div>
                 <div className='col-9 '>
-                    <h2 className='mt-5'>Dezinfeksiya - zararli mikroorganizmlarni yo'q qilish</h2>
-                    <p>Ҳар қандай дезинфексиянинг асосий вазифаси инфексиялар ва касалликларга олиб келиши мумкин бўлган хавфли микроорганизмларни йўқ қилишдир. Дезинфексия чоралари бўш жойни моғор, вирус, чириётган ва бактериялардан тозалайди. Жараён атроф-муҳитни патоген организмлардан тозалайди.Агар ўзингизни ёмон ҳис қилсангиз, чарчоқ ёки сабабсиз заифлашсангиз керак.</p>
+                    <h2 className='mt-5'>Disinfection is the destruction of harmful microorganisms</h2>
+                    <p>The main task of any disinfection is to destroy dangerous microorganisms that can cause infections and diseases. Disinfection measures clean the space from mold, virus, mildew and bacteria. The process cleans the environment of pathogenic organisms. If you feel bad, you may feel tired or weak for no reason.</p>
+                </div>
+            </div>
+            <div className='row border border-success rounded-pill mt-3'>
+                <div className='col-3'>
+                    <img src={insectImg} alt='virus' className='w-100 rounded-pill' />
+                </div>
+                <div className='col-9 '>
+                    <h2 className='mt-5'>Disinsection is the destruction of insects</h2>
+                    <p>Many people first come across the word 'disinfestation' when they are looking for a way to get rid of their unwanted neighbors - bed bugs, cockroaches, ants and other insects. They themselves are harmless, and they are also known carriers of infection. Disinsection is the destruction of insects: mosquitoes, flies, bedbugs, cockroaches, moths, ticks, bark beetles, wood lice and other crawling and flying creatures.</p>
                 </div>
             </div>
             <div className='row border border-success rounded-pill mt-3'>
@@ -34,24 +42,24 @@ function Services() {
                     <img src={mouseImg} alt='virus' className='w-100 rounded-pill' />
                 </div>
                 <div className='col-9 '>
-                    <h2 className='mt-5'>Dezinfeksiya - zararli mikroorganizmlarni yo'q qilish</h2>
-                    <p>Ҳар қандай дезинфексиянинг асосий вазифаси инфексиялар ва касалликларга олиб келиши мумкин бўлган хавфли микроорганизмларни йўқ қилишдир. Дезинфексия чоралари бўш жойни моғор, вирус, чириётган ва бактериялардан тозалайди. Жараён атроф-муҳитни патоген организмлардан тозалайди.Агар ўзингизни ёмон ҳис қилсангиз, чарчоқ ёки сабабсиз заифлашсангиз керак.</p>
+                    <h2 className='mt-5'>Deratization is the destruction of rodents.</h2>
+                    <p>Deratization in Ferghana is a complex set of measures aimed at eliminating rodents. It is known that rodents are very hardy creatures that can withstand various dangerous effects. Therefore, a number of methods should be used to eliminate them. Deratization is carried out in places where rodents appear in Ferghana: apartment buildings, warehouses, shops, catering establishments.</p>
                 </div>
             </div>
 
             {/* Type of services */}
             <div className='row mt-5'>
-                <h1>Xizmat turlari</h1>
+                <h1>Service types</h1>
             </div>
             <div className='row mt-4'>
                 <div className='col-6'>
                     <div class="card shadow text-center">
                         <div class="card-header">
-                            КЛАПАЛАР
+                            VALVES
                         </div>
                         <div class="card-body">
-                            <img src={virusImg} alt='kalpa' className='w-25 border border-danger rounded-pill' />
-                            <p class="card-text">Улар тўшакда, юмшоқ мебелда, тўқимачиликда, ешик ромлари ва дераза ромлари остида яшайдилар. Улар одамлар ва иссиқ қонли ҳайвонларнинг қони билан озиқланади. Аллергия ва оғир психологик ноқулайликни қўзғатинг...</p>
+                            <img src={kalpa} alt='kalpa' className='w-25 border border-success rounded-pill' />
+                            <p class="card-text">They live in beds, upholstered furniture, textiles, under door frames and window frames. They feed on the blood of humans and warm-blooded animals...</p>
                             <a href="#!" class="btn btn-primary">Contact</a>
                         </div>
                         <div class="card-footer text-body-secondary">
@@ -62,43 +70,11 @@ function Services() {
                 <div className='col-6'>
                     <div class="card shadow text-center">
                         <div class="card-header">
-                            КЛАПАЛАР
+                            COCKROACHES
                         </div>
                         <div class="card-body">
-                            <img src={virusImg} alt='kalpa' className='w-25 border border-danger rounded-pill' />
-                            <p class="card-text">Улар тўшакда, юмшоқ мебелда, тўқимачиликда, ешик ромлари ва дераза ромлари остида яшайдилар. Улар одамлар ва иссиқ қонли ҳайвонларнинг қони билан озиқланади. Аллергия ва оғир психологик ноқулайликни қўзғатинг...</p>
-                            <a href="#!" class="btn btn-primary">Contact</a>
-                        </div>
-                        <div class="card-footer text-body-secondary">
-                            A number of contact 23 times
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className='row mt-4'>
-                <div className='col-6'>
-                    <div class="card shadow text-center">
-                        <div class="card-header">
-                            КЛАПАЛАР
-                        </div>
-                        <div class="card-body">
-                            <img src={virusImg} alt='kalpa' className='w-25 border border-danger rounded-pill' />
-                            <p class="card-text">Улар тўшакда, юмшоқ мебелда, тўқимачиликда, ешик ромлари ва дераза ромлари остида яшайдилар. Улар одамлар ва иссиқ қонли ҳайвонларнинг қони билан озиқланади. Аллергия ва оғир психологик ноқулайликни қўзғатинг...</p>
-                            <a href="#!" class="btn btn-primary">Contact</a>
-                        </div>
-                        <div class="card-footer text-body-secondary">
-                            A number of contact 23 times
-                        </div>
-                    </div>
-                </div>
-                <div className='col-6'>
-                    <div class="card shadow text-center">
-                        <div class="card-header">
-                            КЛАПАЛАР
-                        </div>
-                        <div class="card-body">
-                            <img src={virusImg} alt='kalpa' className='w-25 border border-danger rounded-pill' />
-                            <p class="card-text">Улар тўшакда, юмшоқ мебелда, тўқимачиликда, ешик ромлари ва дераза ромлари остида яшайдилар. Улар одамлар ва иссиқ қонли ҳайвонларнинг қони билан озиқланади. Аллергия ва оғир психологик ноқулайликни қўзғатинг...</p>
+                            <img src={tarakan} alt='kalpa' className='w-25 border border-success rounded-pill' />
+                            <p class="card-text">They carry pathogens. They live in crevices, under the floorboards, behind furniture, under the bathroom, under cabinets, etc. They feed on food, household waste, leather goods and paper.</p>
                             <a href="#!" class="btn btn-primary">Contact</a>
                         </div>
                         <div class="card-footer text-body-secondary">
@@ -111,11 +87,43 @@ function Services() {
                 <div className='col-6'>
                     <div class="card shadow text-center">
                         <div class="card-header">
-                            КЛАПАЛАР
+                            SCORPION
                         </div>
                         <div class="card-body">
-                            <img src={virusImg} alt='kalpa' className='w-25 border border-danger rounded-pill' />
-                            <p class="card-text">Улар тўшакда, юмшоқ мебелда, тўқимачиликда, ешик ромлари ва дераза ромлари остида яшайдилар. Улар одамлар ва иссиқ қонли ҳайвонларнинг қони билан озиқланади. Аллергия ва оғир психологик ноқулайликни қўзғатинг...</p>
+                            <img src={chayon} alt='kalpa' className='w-25 border border-success rounded-pill' />
+                            <p class="card-text">Heat-loving creatures that feed on insects and arachnids. They can live in barns and houses, but most often they are found in wooden buildings ...</p>
+                            <a href="#!" class="btn btn-primary">Contact</a>
+                        </div>
+                        <div class="card-footer text-body-secondary">
+                            A number of contact 23 times
+                        </div>
+                    </div>
+                </div>
+                <div className='col-6'>
+                    <div class="card shadow text-center">
+                        <div class="card-header">
+                            RODENTS
+                        </div>
+                        <div class="card-body">
+                            <img src={sichqon} alt='kalpa' className='w-25 border border-success rounded-pill' />
+                            <p class="card-text">The most common are rats and mice. They carry pathogens, work on all surfaces, create passages in walls and ceilings, reduce the reliability of the structure. They feed on food and household waste...</p>
+                            <a href="#!" class="btn btn-primary">Contact</a>
+                        </div>
+                        <div class="card-footer text-body-secondary">
+                            A number of contact 23 times
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className='row mt-4'>
+                <div className='col-6'>
+                    <div class="card shadow text-center">
+                        <div class="card-header">
+                            FLEAS
+                        </div>
+                        <div class="card-body">
+                            <img src={burga} alt='kalpa' className='w-25 border border-success rounded-pill' />
+                            <p class="card-text">They enter the body of pets and migrate from neighbors. They live in upholstered furniture, beds, carpets, soft toys, under mattresses and in window and door frames. They feed on the blood of humans and animals. They cause diseases...</p>
                             <a href="#!" class="btn btn-primary">Contact</a>
                         </div>
                         <div class="card-footer text-body-secondary">

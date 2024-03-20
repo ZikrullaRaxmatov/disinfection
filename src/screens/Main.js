@@ -1,16 +1,17 @@
 import React from 'react';
-import imgMain from '../assets/dis-hashorot.png'
+import imgMain from '../assets/main.png'
 function Main() {
     return (
-        <div className='container' >
-            <div className='row'>
-                <div className='col-6'>
-                    <h1>Dizinfeksiya xizmati</h1>
-                    <p>Биз Тошкентда 10 йилдан бери профессионал дезинфексия ишларини олиб борамиз, шунинг учун биринчи марта зараркунандалардан қандай қутулишни биламиз.</p>
-                    <a href="#!" >Contact</a>
+        <div className='container' id='main' >
+            <div className='row mt-5' >
+                <div className='col-6' >
+                    <h1 className='mt-2'>Disinfection service</h1>
+                    <p className='mt-3'>We have been conducting professional disinfection work in Ferghana for 10 years,
+                         so we know how to get rid of pests for the first time.</p>
+                    <a href="#contact" className='btn mt-4' style={{ backgroundColor: "#5cad00", color: "white" }} >Contact</a>
                 </div>
-                <div className='col-6'>
-                    <img src={imgMain} alt='mainImage' className='w-50' />
+                <div className='col-6 d-flex justify-content-center align-items-center'>
+                    <img src={imgMain} alt='mainImage' className='w-100 border border-success rounded shadow'/>
                 </div>
             </div>
         </div>
