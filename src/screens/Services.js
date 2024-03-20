@@ -126,11 +126,11 @@ function Services() {
             </div>
 
             {/* Certificate */}
-            <div className='row mt-5'>
-                <div className='col-7'>
-                    <img src={virusImg} alt='certificate' className='w-75' />
+            <div className='row mt-5 border border-success rounded bg-success'>
+                <div className='col-7 d-flex justify-content-center align-items-center'>
+                    <img src={virusImg} alt='certificate' className=' w-50' />
                 </div>
-                <div className='col-5'>
+                <div className='col-5 '>
                     <i class="fa-solid fa-file-shield fa-2xl" style={{ color: "#0cad00" }}></i>
                     <h1>
                         Расмий кафолат - 1 йил. Биз жизмоний ва юридик шахсларга хизмат курсатамиз. Хизматлар лицензияланган!!!
