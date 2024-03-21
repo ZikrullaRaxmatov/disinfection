@@ -7,10 +7,8 @@ import Footer from './screens/Footer';
 import Header from './screens/Header';
 import Main from './screens/Main';
 import Services from './screens/Services';
-
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
 
 function App() {
 

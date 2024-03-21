@@ -1,7 +1,18 @@
 import React from 'react';
 import logo from '../assets/GreenLogo.jpg'
+import { useTranslation } from 'react-i18next';
+import eng from '../assets/flag-eng.jpg'
+import rus from '../assets/flag-rus.png'
+import uzb from '../assets/flag-uzb.png'
 
 function Header() {
+    // eslint-disable-next-line
+    const [t, i18n] = useTranslation("global")
+
+    const changeLanguage = (lang) => {
+        i18n.changeLanguage(lang)
+    }
+
     return (
         <nav className="navbar navbar-expand-lg sticky-top shadow" style={{ backgroundColor: "#fff" }}>
             <div className="container">
@@ -38,9 +49,9 @@ function Header() {
                         <li className="nav-item dropdown fs-4 me-3">
                             <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#!" role="button" aria-expanded="false">Language</a>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="#!">Eng</a></li>
-                                <li><a className="dropdown-item" href="#!">Rus</a></li>
-                                <li><a className="dropdown-item" href="#!">Uzb</a></li>
+                                <li><a className="dropdown-item" href="#en" onClick={() => changeLanguage("en")} >English <img className='rounded ms-2' style={{width: "30px"}} src={eng} alt="Eng" /> </a></li>
+                                <li><a className="dropdown-item" href="#ru" onClick={() => changeLanguage("ru")} >Русский <img className='rounded ms-2' style={{width: "30px"}} src={rus} alt="Rus" /> </a></li>
+                                <li><a className="dropdown-item" href="#uz" onClick={() => changeLanguage("ru")} >O'zbekcha <img className='rounded ms-2' style={{width: "30px"}} src={uzb} alt="Uzb" /></a></li>
                             </ul>
                         </li>
                         <li className="nav-item fs-4 me-3">
