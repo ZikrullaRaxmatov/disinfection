@@ -5,6 +5,7 @@ import App from './App';
 import i18next from 'i18next';
 import global_eng from './translations/eng/global.json'
 import global_rus from './translations/rus/global.json'
+import global_uzb from './translations/uzb/global.json'
 import { I18nextProvider } from 'react-i18next';
 
 i18next.init({
@@ -17,6 +18,10 @@ i18next.init({
 
     ru: {
       global: global_rus,
+    },
+
+    uz: {
+      global: global_uzb,
     },
   }
 })

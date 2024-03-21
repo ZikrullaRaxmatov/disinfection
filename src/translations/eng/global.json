@@ -1,6 +1,11 @@
 {
     "header": {
-        "message": "Welcome to our project!!!"
+        "main": "Main",
+        "about": "About",
+        "services": "Services",
+        "faqs": "FAQs",
+        "language": "Language", 
+        "contact": "Contact"
     },
 
     "home": {

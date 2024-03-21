@@ -1,0 +1,14 @@
+{
+    "header": {
+        "main": "Asosiy",
+        "about": "Biz haqimizda",
+        "services": "Xizmatlar",
+        "faqs": "FAQs",
+        "language": "Til", 
+        "contact": "Kontakt"
+    },
+
+    "home": {
+        "body": "Мы защитим вас от вирусов :)"
+    }
+}
