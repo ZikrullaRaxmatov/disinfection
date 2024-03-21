@@ -4,11 +4,76 @@
         "about": "Biz haqimizda",
         "services": "Xizmatlar",
         "faqs": "FAQs",
-        "language": "Til", 
+        "language": "Til",
         "contact": "Kontakt"
     },
 
-    "home": {
-        "body": "Мы защитим вас от вирусов :)"
+    "main": {
+        "title": "Dezinfeksiya xizmati",
+        "body": "Farg‘onada 10 yildan buyon professional dezinfeksiya ishlarini olib boramiz, shuning uchun zararkunandalardan qanday qutulishni birinchi marta bilamiz.",
+        "btn": "Kontakt"
+    },
+    "about": {
+        "title": "Biz haqimizda",
+        "subtitle1": "Tezkor xizmat",
+        "body1": "MUROJAATLAR 24 SOAT QABUL ETILADI. AGAR MUAMMO SHOSCHILIK BO'LSA DAROQ KETISHIMIZ MUMKIN. LEKIN, SIFATI A'lo darajada qolmoqda.",
+        "subtitle2": "Bizning tajribali mutaxassislarimiz",
+        "body2": "BIZNING XODIMIZ HAMMA NARSANI: HISOBI, XONA TAYYORLASH, QAYTA ISHLAB CHIQISH, YANGINI TOZALASH, VENTILASYON VA NAZORAT TEKSHIRISHINI QO'YILADI.",
+        "subtitle3": "Sizning qulayligingizda",
+        "body3": "SIZ UCHUN MUVOFIQ VA Qulay VAQTNI TANlang VA BIZ BILAN BOG'LANING. BIZ SIZGA KAFOLATLI VA SAMARALI NATIJA BERAMIZ",
+        "imgTitle": "Tomchi va zararli hasharotlar haqida o'ylamang !!!",
+        "imgSubtitle": "Kompaniyamiz ko'p yillardan buyon faoliyat yuritadi. Mijozlarimiz bizdan mamnun",
+        "btn": "Kontakt"
+    },
+    "services": {
+        "title": "Xizmatlar",
+        "subtitle": "Biz sizga samarali va kafolatlangan xizmatni taqdim etamiz.",
+        "title1": "Dezinfektsiya - zararli mikroorganizmlarni yo'q qilish",
+        "body1": "Har qanday dezinfektsiyaning asosiy vazifasi infektsiyalar va kasalliklarga olib kelishi mumkin bo'lgan xavfli mikroorganizmlarni yo'q qilishdir. Dezinfektsiya choralari bo'shliqni mog'or, virus, chiriyotgan va bakteriyalardan tozalaydi. Jarayon atrof-muhitni patogen organizmlardan tozalaydi. Agar siz o'zingizni yomon his qilsangiz, hech qanday sababsiz charchagan yoki zaif his qilishingiz mumkin.",
+        "title2": "Dezinseksiya - bu hasharotlarni yo'q qilish",
+        "body2": "Ko‘pchilik “dezinfestatsiya” so‘zini birinchi bo‘lib o‘zlarining istalmagan qo‘shnilari – to‘shak, tarakan, chumolilar va boshqa hasharotlardan xalos bo‘lish yo‘lini qidirganda duch kelishadi. Ularning o'zlari zararsizdir va ular ham ma'lum infektsiya tashuvchilari. Dezinseksiya - bu hasharotlarni: chivinlar, chivinlar, choyshablar, tarakanlar, kuya, shomil, qobiq qo'ng'izlari, yog'och bitlari va boshqa sudraluvchi va uchuvchi jonzotlarni yo'q qilish.",
+        "title3": "Deratizatsiya kemiruvchilarni yo'q qilishdir.",
+        "body3": "Farg‘onada deratizatsiya kemiruvchilarni yo‘q qilishga qaratilgan kompleks chora-tadbirlar majmuidir. Ma'lumki, kemiruvchilar turli xil xavfli ta'sirlarga dosh bera oladigan juda qattiq jonzotlardir. Shuning uchun ularni yo'q qilish uchun bir qator usullardan foydalanish kerak. Farg‘onada kemiruvchilar paydo bo‘ladigan joylarda: ko‘p qavatli uylar, omborlar, do‘konlar, umumiy ovqatlanish korxonalarida deratizatsiya amalga oshiriladi."
+    },
+    "service_type": {
+        "title1": "KAPLYALAR",
+        "body1": "Ular to'shakda, yumshoq mebelda, to'qimachilikda, eshik romlari va deraza romlari ostida yashaydilar. Ular inson va issiq qonli hayvonlarning qoni bilan oziqlanadi...",
+        "footer1": "Aloqa soni 20 marta",
+        "title2": "TARAKANLAR",
+        "body2": "Ular patogenlarni olib yuradilar. Ular yoriqlarda, taxta tagida, mebel orqasida, hammom ostida, shkaflar ostida va hokazolarda yashaydilar. Oziq-ovqat, maishiy chiqindilar, charm buyumlar va qog'oz bilan oziqlanadilar.",
+        "footer2": "Aloqa soni 23 marta",
+        "title3": "CHAYONLAR",
+        "body3": "Hasharotlar va araxnidlar bilan oziqlanadigan issiqlikni yaxshi ko'radigan jonzotlar. Ular omborlarda va uylarda yashashlari mumkin, lekin ko'pincha ular yog'och binolarda topiladi ...",
+        "footer3": "Aloqa soni 9 marta",
+        "title4": "KEMIRUVCHILAR",
+        "body4": "Eng keng tarqalgan kalamushlar va sichqonlar. Ular patogenlarni olib yuradilar, barcha sirtlarda ishlaydi, devorlar va shiftlardagi o'tish joylarini yaratadi, strukturaning ishonchliligini pasaytiradi. Ular oziq-ovqat va maishiy chiqindilar bilan oziqlanadi...",
+        "footer4": "Aloqa soni 32 marta",
+        "title5": "BURGALAR",
+        "body5": "Ular uy hayvonlarining tanasiga kirib, qo'shnilardan ko'chib ketishadi. Ular yumshoq mebellar, ko'rpa-to'shaklar, gilamlar, yumshoq o'yinchoqlar, matraslar ostida, deraza va eshik romlarida yashaydilar. Ular odamlar va hayvonlarning qoni bilan oziqlanadi. Ular kasalliklarni keltirib chiqaradi ...",
+        "footer5": "Aloqa soni 51 marta",
+        "btn": "Kontakt",
+        "imgTitle": "Rasmiy kafolat - 1 yil. Biz jismoniy va yuridik shaxslarga xizmat ko'rsatamiz. Xizmatlar litsenziyalangan!!!"
+    },
+    "faqs": {
+        "title": "FAQs",
+        "title1": "Zararkunandalarga qarshi kurash qanday amalga oshiriladi?",
+        "body1": "Maxsus jihozlar yordamida insektitsidlar aerozolli tumanga aylanadi va devor qog'ozi, devor va taxta plitalari orasidagi eng kichik bo'shliqlarga, ko'rinmas hasharotlar uchun potentsial 'yashirish joylari' ga kiradi.",
+        "title2": "Siz ishlatadigan dorilar xavflimi?",
+        "body2": "Dorilar odamlar, uy hayvonlari va o'simliklar uchun xavfli emas. Ammo davolanishdan keyin xonani 40 daqiqa davomida ventilyatsiya qilish kerak.",
+        "title3": "Menga uyimni davolanishga tayyorlashning qandaydir usuli kerakmi?",
+        "body3": "Asosan, idish-tovoq va shaxsiy gigiena vositalarini izolyatsiya qilishingiz kerak. Davolash paytida uy hayvonlari ham izolyatsiya qilinishi kerak. Mebel yoki jihozlarni ko'chirishga hojat yo'q."
+    },
+    "contact": {
+        "title": "Kontakt",
+        "subTitle": "Ma'lumotlaringizni qoldiring",
+        "name": "Ism",
+        "namePl": "Ism...",
+        "phone": "Telefon",
+        "phonePl": "Telefon...",
+        "btn": "Jo'natish"
+    },
+    "footer": {
+        "location": "Farg'ona, O'zbekiston"
     }
+
 }

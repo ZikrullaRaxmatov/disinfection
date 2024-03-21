@@ -8,7 +8,77 @@
         "contact": "Contact"
     },
 
-    "home": {
-        "body": "We protect you from viruses :)"
+    "main": {
+        "title": "Disinfection service",
+        "body": "We have been conducting professional disinfection work in Ferghana for 10 years, so we know how to get rid of pests for the first time.",
+        "btn": "Contact"
+    },
+
+    "about": {
+        "title": "About",
+        "subtitle1": "Fast service",
+        "body1": "APPLICATIONS ARE ACCEPTED 24 HOURS A DAY. IF THE PROBLEM IS URGENT WE CAN GO IMMEDIATELY. HOWEVER, THE QUALITY REMAINS EXCELLENT.",
+        "subtitle2": "Our experienced specialists",
+        "body2": "OUR STAFF TAKES CARE OF EVERYTHING: ACCOUNTING, ROOM PREPARATION, RECYCLING, FINAL CLEANING, VENTILATION AND CONTROL CHECKS.",
+        "subtitle3": "At your convenience",
+        "body3": "CHOOSE A SUITABLE AND CONVENIENT TIME FOR YOU AND CONTACT US. WE GIVE YOU A GUARANTEED AND EFFECTIVE RESULT",
+        "imgTitle": "Consider the droplet and harmful insects no more!!!",
+        "imgSubtitle": "Our company has been operating for many years. Our customers are happy with us",
+        "btn": "Contact"
+    },
+
+    "services": {
+        "title": "Services",
+        "subtitle": "We provide you with efficient and guaranteed service.",
+        "title1": "Disinfection is the destruction of harmful microorganisms",
+        "body1": "The main task of any disinfection is to destroy dangerous microorganisms that can cause infections and diseases. Disinfection measures clean the space from mold, virus, mildew and bacteria. The process cleans the environment of pathogenic organisms. If you feel bad, you may feel tired or weak for no reason.",
+        "title2": "Disinsection is the destruction of insects",
+        "body2": "Many people first come across the word 'disinfestation' when they are looking for a way to get rid of their unwanted neighbors - bed bugs, cockroaches, ants and other insects. They themselves are harmless, and they are also known carriers of infection. Disinsection is the destruction of insects: mosquitoes, flies, bedbugs, cockroaches, moths, ticks, bark beetles, wood lice and other crawling and flying creatures.",
+        "title3": "Deratization is the destruction of rodents.",
+        "body3": "Deratization in Ferghana is a complex set of measures aimed at eliminating rodents. It is known that rodents are very hardy creatures that can withstand various dangerous effects. Therefore, a number of methods should be used to eliminate them. Deratization is carried out in places where rodents appear in Ferghana: apartment buildings, warehouses, shops, catering establishments."
+    },
+
+    "service_type": {
+        "title1": "VALVES",
+        "body1": "They live in beds, upholstered furniture, textiles, under door frames and window frames. They feed on the blood of humans and warm-blooded animals...",
+        "footer1": "A number of contact is 20 times",
+        "title2": "COCKROACHES",
+        "body2": "They carry pathogens. They live in crevices, under the floorboards, behind furniture, under the bathroom, under cabinets, etc. They feed on food, household waste, leather goods and paper.",
+        "footer2": "A number of contact is 23 times",
+        "title3": "SCORPION",
+        "body3": "Heat-loving creatures that feed on insects and arachnids. They can live in barns and houses, but most often they are found in wooden buildings ...",
+        "footer3": "A number of contact is 9 times",
+        "title4": "RODENTS",
+        "body4": "The most common are rats and mice. They carry pathogens, work on all surfaces, create passages in walls and ceilings, reduce the reliability of the structure. They feed on food and household waste...",
+        "footer4": "A number of contact is 32 times",
+        "title5": "FLEAS",
+        "body5": "They enter the body of pets and migrate from neighbors. They live in upholstered furniture, beds, carpets, soft toys, under mattresses and in window and door frames. They feed on the blood of humans and animals. They cause diseases...",
+        "footer5": "A number of contact is 13 times",
+        "btn": "Contact",
+        "imgTitle": "Official warranty - 1 year. We provide services to individuals and legal entities. Services are licensed!!!"
+    }, 
+
+    "faqs": {
+        "title": "FAQs",
+        "title1": "How is pest control done?",
+        "body1": "With the help of special equipment, insecticides become an aerosol mist and penetrate into the smallest gaps between wallpaper, walls and floorboards, potential 'hiding places' for invisible insects.",
+        "title2": "Are the drugs you use dangerous?",
+        "body2": "Medicines are not dangerous for people, pets and plants. But after treatment, the room should be ventilated for 40 minutes.",
+        "title3": "Do I need some way to prepare my home for treatment?",
+        "body3": "Basically, you need to isolate dishes and personal hygiene products. Pets should also be isolated during treatment. No need to move furniture or appliances."
+    }, 
+
+    "contact": {
+        "title": "Contact",
+        "subTitle": "Leave your information",
+        "name": "Name",
+        "namePl": "Name...",
+        "phone": "Phone",
+        "phonePl": "Phone...",
+        "btn": "Send"
+    }, 
+
+    "footer": {
+        "location": "Ferghana, Uzbekistan"
     }
 }
