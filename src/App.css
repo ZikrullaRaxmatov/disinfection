@@ -37,6 +37,11 @@
   }
 }
 
-.mt10 {
-  margin-top: 250px;
+/* .card {
+  display: flex;
+  flex-direction: column;
 }
+
+.card-footer {
+  flex-grow: 1;
+} */
