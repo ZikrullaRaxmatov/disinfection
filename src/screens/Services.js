@@ -23,24 +23,24 @@ function Services() {
             <div className='row mt-5'>
                 <h1 id='services'>{t("services.title")}</h1>
                 <hr />
-                <h5>{t("services.subtitle")}</h5>
+                <h5 className=''>{t("services.subtitle")}</h5>
             </div>
-            <div className='row border border-success rounded mt-3 m-5' data-aos="zoom-in-up" data-aos-duration="2000">
-                <div className='d-none col-md-3 d-lg-block' >
+            <div className='row border border-success rounded mt-5 m-5' data-aos="zoom-in-up" data-aos-duration="2000">
+                <div className='d-none col-md-3 d-lg-flex justify-content-center align-items-center' >
                     <img src={virusImg} alt='virus' className=' w-100 rounded-pill mt-2' />
                 </div>
-                <div className='col-md-9 position-relative'>
-                    <span class="position-absolute top-0 start-100 translate-middle rounded-circle" style={{ width: "100px" }} ><img src={virusImg} alt='virus' className='w-100 rounded-pill' /></span>
+                <div className=' col-lg-9 position-relative'>
+                    <span className="position-absolute top-0 start-100 translate-middle rounded-circle" style={{ width: "100px" }} ><img src={virusImg} alt='virus' className='w-100 rounded-pill' /></span>
                     <h2 className='mt-5'>{t("services.title1")}</h2>
                     <p>{t("services.body1")}</p>
                 </div>
             </div>
 
             <div className='row border border-success rounded mt-3 m-5' data-aos="zoom-in-up" data-aos-duration="2000">
-                <div className='d-none col-md-3 d-lg-block' >
+                <div className='d-none col-md-3 d-lg-flex justify-content-center align-items-center' >
                     <img src={insectImg} alt='virus' className=' w-100 rounded-pill mt-2' />
                 </div>
-                <div className='col-md-9 position-relative'>
+                <div className='col-lg-9 position-relative'>
                     <span class="position-absolute top-0 start-100 translate-middle rounded-circle" style={{ width: "100px" }} ><img src={insectImg} alt='virus' className='w-100 rounded-pill' /></span>
                     <h2 className='mt-5'>{t("services.title2")}</h2>
                     <p>{t("services.body2")}</p>
@@ -48,10 +48,10 @@ function Services() {
             </div>
 
             <div className='row border border-success rounded mt-3 m-5' data-aos="zoom-in-up" data-aos-duration="2000">
-                <div className='d-none col-md-3 d-lg-block' >
+                <div className='d-none col-md-3 d-lg-flex justify-content-center align-items-center' >
                     <img src={mouseImg} alt='virus' className=' w-100 rounded-pill mt-2' />
                 </div>
-                <div className='col-md-9 position-relative'>
+                <div className='col-lg-9 position-relative'>
                     <span class="position-absolute top-0 start-100 translate-middle rounded-circle" style={{ width: "100px" }} ><img src={mouseImg} alt='virus' className='w-100 rounded-pill' /></span>
                     <h2 className='mt-5'>{t("services.title3")}</h2>
                     <p>{t("services.body3")}</p>
@@ -60,7 +60,7 @@ function Services() {
 
             {/* Type of services */}
             <div className='row mt-5'>
-                <h1>Service types</h1>
+                <h1>{t("service_type.title")}</h1>
             </div>
             <div className='row mt-2'>
                 <div className='col-12 col-md-6 mt-3 ' data-aos="flip-left" data-aos-duration="2000" >
