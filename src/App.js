@@ -17,14 +17,16 @@ function App() {
   }, [])
 
   return (
-    <div className=''>
-      <Header/>
-      <Main/>
-      <About/>
-      <Services/>
-      <FAQ/>
-      <Contact/>
-      <Footer/>
+    <div>
+      <Header />
+      <div className='border border-success container'>
+        <Main />
+        <About />
+        <Services />
+        <FAQ />
+        <Contact />
+        <Footer />
+      </div>
     </div>
   );
 }
