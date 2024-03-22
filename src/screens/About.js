@@ -9,7 +9,7 @@ function About() {
     const [t, i18n] = useTranslation("global")
 
     return (
-        <div className='container border border-danger'>
+        <div className='container'>
             <div className='row mt-5'>
                 <div className='col-12'>
                     <h1 id='about' > {t("about.title")} </h1>
