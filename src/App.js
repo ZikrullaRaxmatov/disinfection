@@ -19,7 +19,7 @@ function App() {
   return (
     <div>
       <Header />
-      <div className='border border-success container'>
+      <div className='container'>
         <Main />
         <About />
         <Services />
