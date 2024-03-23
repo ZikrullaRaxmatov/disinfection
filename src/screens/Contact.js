@@ -12,7 +12,6 @@ function Contact() {
     const chat_id = 755982207
 
     const submit = () => {
-        // e.preventDefault()
 
         fetch(`https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${name + " " + phone}`)
             .then(res => res.json())
