@@ -8,6 +8,8 @@ import global_rus from './translations/rus/global.json'
 import global_uzb from './translations/uzb/global.json'
 import global_kor from './translations/kor/global.json'
 import { I18nextProvider } from 'react-i18next';
+import { ToastContainer } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 
 i18next.init({
   interpolation: { escapeValue: false },
@@ -37,6 +39,7 @@ root.render(
   <React.StrictMode>
     <I18nextProvider i18n={i18next} >
       <App />
+      <ToastContainer/>
     </I18nextProvider>
   </React.StrictMode>
 );

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import contactImg from '../assets/con.jpg'
 import { useTranslation } from 'react-i18next';
+import { toast } from 'react-toastify';
 
 function Contact() {
 
@@ -13,18 +14,22 @@ function Contact() {
 
     const submit = () => {
 
-        fetch(`https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${name + " " + phone}`)
-            .then(res => res.json())
-            .then(data => {
-                console.log(data);
-                alert("Success")
-                setName("")
-                setPhone("")
-            })
-            .catch(err => {
-                console.log(err);
-                alert("Error")
-            })
+        if (name || phone) {
+            fetch(`https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${name + " " + phone}`)
+                .then(res => res.json())
+                .then(data => {
+                    toast.success("Your information have been sent!")
+                    setName("")
+                    setPhone("")
+                })
+                .catch(err => {
+                    toast.error("Something went wrong")
+                })
+        } else {
+            alert("Please, fill out these fields!")
+        }
+
+
     }
 
     return (
@@ -48,6 +53,7 @@ function Contact() {
                                         placeholder={t("contact.namePl")}
                                         value={name}
                                         onChange={(e) => setName(e.target.value)}
+                                        required
                                     />
                                 </div>
                                 <div className="mb-3">
@@ -59,6 +65,7 @@ function Contact() {
                                         placeholder={t("contact.phonePl")}
                                         value={phone}
                                         onChange={(e) => setPhone(e.target.value)}
+                                        required
                                     />
                                 </div>
                                 <a href="#contact"
