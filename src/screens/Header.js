@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import eng from '../assets/flag-eng.jpg'
 import rus from '../assets/flag-rus.png'
 import uzb from '../assets/flag-uzb.png'
+import kor from '../assets/flag-kor.png'
 
 function Header() {
     const [t, i18n] = useTranslation("global")
@@ -49,9 +50,10 @@ function Header() {
                         <li className="nav-item dropdown fs-4 me-3">
                             <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#!" role="button" aria-expanded="false">{t("header.language")}</a>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="#en" onClick={() => changeLanguage("en")} >English <img className='rounded ms-2' style={{ width: "30px" }} src={eng} alt="Eng" /> </a></li>
-                                <li><a className="dropdown-item" href="#ru" onClick={() => changeLanguage("ru")} >Русский <img className='rounded ms-2' style={{ width: "30px" }} src={rus} alt="Rus" /> </a></li>
-                                <li><a className="dropdown-item" href="#uz" onClick={() => changeLanguage("uz")} >O'zbekcha <img className='rounded ms-2' style={{ width: "30px" }} src={uzb} alt="Uzb" /></a></li>
+                                <li><a className="dropdown-item" href="#en" onClick={() => changeLanguage("en")} > <img className='rounded me-2' style={{ width: "30px" }} src={eng} alt="Eng" /> English </a></li>
+                                <li><a className="dropdown-item" href="#ru" onClick={() => changeLanguage("ru")} > <img className='rounded me-2' style={{ width: "30px" }} src={rus} alt="Rus" />  Русский </a></li>
+                                <li><a className="dropdown-item" href="#uz" onClick={() => changeLanguage("uz")} > <img className='rounded me-2' style={{ width: "30px" }} src={uzb} alt="Uzb" /> O'zbekcha </a></li>
+                                <li><a className="dropdown-item" href="#uz" onClick={() => changeLanguage("ko")} > <img className='rounded me-2' style={{ width: "30px" }} src={kor} alt="Kor" /> 한국어 </a></li>
                             </ul>
                         </li>
                         <li className="nav-item fs-4 me-3">
