@@ -35,8 +35,8 @@ function Header() {
                 <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
                 {/* data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" */}
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0" >
-                        <li  className="nav-item" >
-                            <a  className="nav-link fs-4 me-3 " href="#main"> {t("header.main")}</a>
+                        <li  className="nav-item " >
+                            <a className="nav-link fs-4 me-3 " href="#main" > {t("header.main")}</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link fs-4 me-3" href="#about">{t("header.about")}</a>
