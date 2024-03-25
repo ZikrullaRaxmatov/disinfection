@@ -34,12 +34,12 @@ function About() {
                 </div>
             </div>
             <div className='row mt-2'>
-                <div className='col ' data-aos="zoom-out" data-aos-duration="3000">
+                <div className='col ' data-aos="zoom-out" data-aos-duration="2000">
                     <div className="card text-center shadow">
                         <img src={aboutImg} alt='about' className='object-fit-cover w-100 border border-success rounded' style={{height: "350px"}} />
-                        <div className="card-img-overlay" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="3000">
-                            <h2 className="card-title  mt-3 mt-md-5" style={{color: "#5cad00"}} >{t("about.imgTitle")}</h2>
-                            <h4 className="card-text mt-3 mt-md-5" style={{color: "#5cad00"}} >{t("about.imgSubtitle")}</h4>
+                        <div className="card-img-overlay" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
+                            <h2 className="card-title  mt-3 mt-md-5"  >{t("about.imgTitle")}</h2>
+                            <h4 className="card-text mt-3 mt-md-5"  >{t("about.imgSubtitle")}</h4>
                             <a href='#contact' className='btn mt-3 mt-md-5' style={{ backgroundColor: "#5cad00", color: "white" }} >{t("about.btn")}</a>
                         </div>
                     </div>

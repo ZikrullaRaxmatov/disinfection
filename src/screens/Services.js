@@ -25,34 +25,34 @@ function Services() {
                 <hr />
                 <h5 className=''>{t("services.subtitle")}</h5>
             </div>
-            <div className='row border border-success rounded mt-5 m-5' data-aos="zoom-in-up" data-aos-duration="2000">
+            <div className='row text-right border border-success rounded mt-5' data-aos="zoom-in-up" data-aos-duration="2000">
                 <div className='d-none col-md-3 d-lg-flex justify-content-center align-items-center' >
                     <img src={virusImg} alt='virus' className=' w-100 rounded-pill mt-2' />
                 </div>
-                <div className=' col-lg-9 position-relative'>
-                    <span className="position-absolute top-0 start-100 translate-middle rounded-circle" style={{ width: "100px" }} ><img src={virusImg} alt='virus' className='w-100 rounded-pill' /></span>
+                <div className='col-12 col-lg-9 position-relative'>
+                    <span className="d-lg-none position-absolute top-0 start-50  translate-middle rounded-circle" style={{ width: "100px" }} ><img src={virusImg} alt='virus' className='w-100 rounded-pill' /></span>
                     <h2 className='mt-5'>{t("services.title1")}</h2>
                     <p>{t("services.body1")}</p>
                 </div>
             </div>
 
-            <div className='row border border-success rounded mt-3 m-5' data-aos="zoom-in-up" data-aos-duration="2000">
+            <div className='row border border-success rounded mt-5' data-aos="zoom-in-up" data-aos-duration="2000">
                 <div className='d-none col-md-3 d-lg-flex justify-content-center align-items-center' >
                     <img src={insectImg} alt='virus' className=' w-100 rounded-pill mt-2' />
                 </div>
-                <div className='col-lg-9 position-relative'>
-                    <span className="position-absolute top-0 start-100 translate-middle rounded-circle" style={{ width: "100px" }} ><img src={insectImg} alt='virus' className='w-100 rounded-pill' /></span>
+                <div className='col-lg-9 position-relative '>
+                    <span className="d-lg-none position-absolute top-0 start-50 translate-middle rounded-circle" style={{ width: "100px" }} ><img src={insectImg} alt='virus' className='w-100 rounded-pill' /></span>
                     <h2 className='mt-5'>{t("services.title2")}</h2>
                     <p>{t("services.body2")}</p>
                 </div>
             </div>
 
-            <div className='row border border-success rounded mt-3 m-5' data-aos="zoom-in-up" data-aos-duration="2000">
+            <div className='row border border-success rounded mt-5' data-aos="zoom-in-up" data-aos-duration="2000">
                 <div className='d-none col-md-3 d-lg-flex justify-content-center align-items-center' >
                     <img src={mouseImg} alt='virus' className=' w-100 rounded-pill mt-2' />
                 </div>
                 <div className='col-lg-9 position-relative'>
-                    <span className="position-absolute top-0 start-100 translate-middle rounded-circle" style={{ width: "100px" }} ><img src={mouseImg} alt='virus' className='w-100 rounded-pill' /></span>
+                    <span className="d-lg-none position-absolute top-0 start-50 translate-middle rounded-circle" style={{ width: "100px" }} ><img src={mouseImg} alt='virus' className='w-100 rounded-pill' /></span>
                     <h2 className='mt-5'>{t("services.title3")}</h2>
                     <p>{t("services.body3")}</p>
                 </div>
@@ -151,9 +151,9 @@ function Services() {
                 </div>
                 <div className='col-lg-5 text-center pb-3 pb-md-0'>
                     <i className="fa-solid fa-file-shield fa-2xl mt-3 mt-lg-5" style={{ color: "#0cad00" }}></i>
-                    <h1>
+                    <p className='fs-4'>
                     {t("service_type.imgTitle")}
-                    </h1>
+                    </p>
                     <a href='#contact' style={{ backgroundColor: "#5cad00", color: "white" }} className='btn mt-2'>{t("service_type.btn")}</a>
                 </div>
             </div>

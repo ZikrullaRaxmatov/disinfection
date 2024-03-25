@@ -17,7 +17,7 @@ function Header() {
         <nav className="navbar navbar-expand-lg sticky-top shadow" style={{ backgroundColor: "#fff" }}>
             <div className="container">
                 <a className="navbar-brand" href="#main">
-                    <img src={logo} alt='Logo' className='w-50 ms-5' />
+                    <img src={logo} alt='Logo' className='w-50 ms-md-5' />
                 </a>
                 {/* <ul className='d-block d-md-none navbar-nav'>
                     <li className="nav-item dropdown fs-6">
