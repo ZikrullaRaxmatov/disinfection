@@ -33,9 +33,11 @@ function Header() {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-                {/* data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" */}
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0" >
-                        <li  className="nav-item " >
+                        <li className="d-lg-none nav-item d-flex justify-content-end " >
+                            <button type="button" className="btn-close me-3" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"  aria-label="Close"></button>
+                        </li>
+                        <li className="nav-item " >
                             <a className="nav-link fs-4 me-3 " href="#main" > {t("header.main")}</a>
                         </li>
                         <li className="nav-item">

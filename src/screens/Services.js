@@ -74,7 +74,7 @@ function Services() {
                             <a href="#contact" style={{ backgroundColor: "#5cad00", color: "white" }} className="btn">{t("service_type.btn")}</a>
                         </div>
                         <div className="card-footer text-body-secondary">
-                        {t("service_type.footer1")}
+                            {t("service_type.footer1")}
                         </div>
                     </div>
                 </div>
@@ -89,7 +89,7 @@ function Services() {
                             <a href="#contact" style={{ backgroundColor: "#5cad00", color: "white" }} className="btn">{t("service_type.btn")}</a>
                         </div>
                         <div className="card-footer text-body-secondary">
-                        {t("service_type.footer2")}
+                            {t("service_type.footer2")}
                         </div>
                     </div>
                 </div>
@@ -106,7 +106,7 @@ function Services() {
                             <a href="#contact" style={{ backgroundColor: "#5cad00", color: "white" }} className="btn">{t("service_type.btn")}</a>
                         </div>
                         <div className="card-footer text-body-secondary">
-                        {t("service_type.footer3")}
+                            {t("service_type.footer3")}
                         </div>
                     </div>
                 </div>
@@ -121,7 +121,7 @@ function Services() {
                             <a href="#contact" style={{ backgroundColor: "#5cad00", color: "white" }} className="btn">{t("service_type.btn")}</a>
                         </div>
                         <div className="card-footer text-body-secondary">
-                        {t("service_type.footer4")}
+                            {t("service_type.footer4")}
                         </div>
                     </div>
                 </div>
@@ -138,21 +138,21 @@ function Services() {
                             <a href="#contact" style={{ backgroundColor: "#5cad00", color: "white" }} className="btn">{t("service_type.btn")}</a>
                         </div>
                         <div className="card-footer text-body-secondary">
-                        {t("service_type.footer5")}
+                            {t("service_type.footer5")}
                         </div>
                     </div>
                 </div>
             </div>
 
             {/* Certificate */}
-            <div className='row mt-5 border border-success rounded m-2 ' data-aos="flip-right" data-aos-duration="3000" >
+            <div className='d-flex justify-content-center align-items-center row mt-5 border border-success rounded m-2 ' data-aos="flip-right" data-aos-duration="3000" >
                 <div className='col-lg-7 d-flex justify-content-center align-items-center p-3'>
                     <img src={pest} alt='certificate' className=' w-75 rounded ' />
                 </div>
-                <div className='col-lg-5 text-center pb-3 pb-md-0'>
-                    <i className="fa-solid fa-file-shield fa-2xl mt-3 mt-lg-5" style={{ color: "#0cad00" }}></i>
-                    <p className='fs-4'>
-                    {t("service_type.imgTitle")}
+                <div className='col-lg-5 pb-3 pb-md-0'>
+                    <i className="fa-solid fa-file-shield fa-2xl " style={{ color: "#0cad00" }}></i>
+                    <p className='fs-4 mt-2'>
+                        {t("service_type.imgTitle")}
                     </p>
                     <a href='#contact' style={{ backgroundColor: "#5cad00", color: "white" }} className='btn mt-2'>{t("service_type.btn")}</a>
                 </div>

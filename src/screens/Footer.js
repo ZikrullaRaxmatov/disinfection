@@ -12,10 +12,10 @@ function Footer() {
             <hr />
             <div className='container'>
                 <div className='row'>
-                    <div className='col-4 d-flex justify-content-evenly align-items-center'>
+                    <div className='col-3 d-flex justify-content-evenly align-items-center'>
                         <img src={footerImg} alt='footerImg' className='w-50' />
                     </div>
-                    <div className='col-8 d-flex justify-content-evenly align-items-center'>
+                    <div className='col-9 d-flex justify-content-evenly align-items-center'>
                         <div>
                             <i className="fa-solid fa-location-dot fa-xl me-2" style={{ color: "#0cad00" }} ></i>
                             <label className='fw-bold'>{t("footer.location")}</label>
